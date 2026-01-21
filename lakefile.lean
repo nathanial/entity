@@ -4,7 +4,7 @@ open Lake DSL
 package entity where
   version := v!"0.0.1"
 
-require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.7"
+require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.8"
 
 @[default_target]
 lean_lib Entity where
