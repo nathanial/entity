@@ -91,6 +91,4 @@ test "App runFor" := do
   let count ← counter.get
   count ≡ 5
 
-#generate_tests
-
 end SystemTests

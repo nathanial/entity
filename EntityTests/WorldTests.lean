@@ -85,6 +85,4 @@ test "World query entities by component" := do
   let withVel := w4.queryEntities #[c2]
   withVel.size ≡ 1
 
-#generate_tests
-
 end WorldTests

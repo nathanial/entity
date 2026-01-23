@@ -67,6 +67,4 @@ test "ArchetypeId deduplication" := do
   let a := ArchetypeId.ofComponents #[c1, c1, c1]
   a.size ≡ 1
 
-#generate_tests
-
 end CoreTests

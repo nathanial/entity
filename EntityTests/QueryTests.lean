@@ -90,6 +90,4 @@ test "QuerySpec excludes non-matching" := do
   -- Now without Enemy should not match
   q2.spec.matchesArchetype archWithEnemy ≡ false
 
-#generate_tests
-
 end QueryTests
